@@ -4,7 +4,7 @@
 # Introdución
 ---
 
-![Alt text](pics\image-1.png)
+![Alt text](images/image-1.png)
 
 
 #### El fraude financiero representa un desafío significativo para bancos e instituciones financieras en todo el mundo, ya que puede resultar en pérdidas financieras sustanciales y dañar la reputación de una empresa. En los últimos años, el Aprendizaje Automático se ha convertido en una herramienta valiosa para mejorar la detección de fraudes financieros. En este proyecto, asumiré el rol de un científico de datos y desarrollaré un modelo capaz de detectar fraudes con un alto nivel de precisión.
