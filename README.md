@@ -4,7 +4,7 @@
 # Introdución
 ---
 
-![Alt text](image-1.png)
+![Alt text](pics\image-1.png)
 
 
 #### El fraude financiero representa un desafío significativo para bancos e instituciones financieras en todo el mundo, ya que puede resultar en pérdidas financieras sustanciales y dañar la reputación de una empresa. En los últimos años, el Aprendizaje Automático se ha convertido en una herramienta valiosa para mejorar la detección de fraudes financieros. En este proyecto, asumiré el rol de un científico de datos y desarrollaré un modelo capaz de detectar fraudes con un alto nivel de precisión.
@@ -34,11 +34,13 @@ Observamos que el dataset ha sido preprocesado para mantener su anonimato median
 
 - Implementar técnicas para abordar el desequilibrio en el dataset.
 
-- Alcanzar niveles aceptables de **AUC, precision, y F1-score**.
+- Alcanzar altos niveles de **AUC-ROC** ya que  es crucial utilizarlas en un dataset altamente desbalanceado. Las métricas "tradicionales" pueden dar resultados contraintuitivos. Por ejemplo, si clasificáramos todos los registros como "no fraudulentos", obtendríamos un Accuracy Score de más del 99%. La métrica AUC-ROC se convierte en una alternativa sólida en esta circunstancia.
 
 - Seleccionar los modelos más efectivos y crear un conjunto de modelos para optimizar los resultados.
 
 - Probar el conjunto de modelos con diferentes Meta-Clasificadores  
+
+- LLegar a una conclusion de la rentabilidad del ensamblado de modelos.
 
 
 ###### [Articulo sobre meta clasificadores en modelos de prevencion de fraude financiero](https://www.sciencedirect.com/science/article/abs/pii/S1544612322001866).
@@ -69,20 +71,17 @@ Observamos que el dataset ha sido preprocesado para mantener su anonimato median
 
         - **XGBOOST**: un algoritmo de aprendizaje automático que utiliza árboles de decisión y técnicas de aumento para mejorar la precisión de la clasificación y la regresión.
 
-        Después de varias pruebas, se descartaron SVM y RUSBoost, aunque este último se probó como meta-clasificador.
+        Después de varias pruebas, se descartaron SVM, AdaBoost y RUSBoost.
 
-# Model Stacking
+- ### Model Ensambling
+
+    - Realicé pruebas para evaluar la capacidad de modelos ensamblados. En estas pruebas se utilizaron 3 distintos tipos de ensambles: **Stackin, Soft Voting y Hard Voting**
+
+
+
+    ##### [Articulo sobre stacking](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/)
+    ##### [Articuo sobre Voting](https://ilyasbinsalih.medium.com/what-is-hard-and-soft-voting-in-machine-learning-2652676b6a32)
 ---
-
-![Alt text](image.png)
-
-[Articulo sobre stacking de modelos en python](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/)
-
-El stacking es una técnica de aprendizaje automático que se utiliza para mejorar el rendimiento predictivo de un modelo combinando las predicciones de varios modelos base. En lugar de depender de un solo modelo para hacer predicciones, el stacking combina las predicciones de múltiples modelos y utiliza otro modelo, a menudo llamado "meta-modelo" o "modelo de nivel superior", para realizar predicciones finales basadas en las predicciones de los modelos base.
-
-En este caso, se probaron tres meta-modelos diferentes: **Logistic Regression, Random Forest, RUSBoost**
-
-
 
 
 
