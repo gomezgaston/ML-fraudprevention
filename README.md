@@ -126,7 +126,7 @@ Además, uno de los aspectos más destacados de este conjunto de datos es el sig
 
 - **Se observan gran cantidad valores atipicos**, al tratarse de tantos y tener tan pocas etiquetas positivas decido mantenerlos para evitar la perdida de datos importantes para el modelo.
 
-![Outliers](images\outliers.png)
+![Outliers](images/outliers.png)
 
 - **El conjuto de datos no presenta valores duplicados**.
 
@@ -134,15 +134,15 @@ Además, uno de los aspectos más destacados de este conjunto de datos es el sig
 # Comparecion del modelo.
 
 - ## Modelos Base Utilizados
-![Base_models](images\base_models.png)
+![Base_models](images/base_models.png)
 
 - ## Soft Voting Classifier
 
-![Soft_Clf](images\soft_full.png)
+![Soft_Clf](images/soft_full.png)
 
 - ## Stacking Models
 
-![Stack_Clf](images\stack_full.png)
+![Stack_Clf](images/stack_full.png)
 
 
 # Conclusiones
