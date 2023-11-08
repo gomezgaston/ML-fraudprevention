@@ -120,7 +120,7 @@ Además, uno de los aspectos más destacados de este conjunto de datos es el sig
     - Hubieron 284.315 transacciones normales (99.828%), 492 transacciones fraudulentas (0.172%).
     - Hay un desbalance extremo entre etiquetas. Posibles alternativas : RandomUnderSampler, RandomOverSampler o SMOTE
 
-    ![Samples](images\class_count.png)
+    ![Samples](images/class_count.png)
 
 - El Conjunto de datos **no presenta valores nulos.**
 
