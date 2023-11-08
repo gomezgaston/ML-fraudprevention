@@ -87,12 +87,12 @@ Además, uno de los aspectos más destacados de este conjunto de datos es el sig
 # Contenidos:
 
 
-- ### Notebooks y Scripts
+- ### Notebooks
     - **EDA+Feature_selection.ipynb:** Donde se realizó el analisis exploratorio de datos. Tambien se realizo la seleccion de caracteristicas
 
     - **Model_Ensamblig.ipynb:** Donde se realizo el ensamblado de modelos. Se probaron las tres tecnicas de ensamblado antes mencionadas
 
-    - 
+      
 
 - ### Carpetas
     - **tuning:** Contiene los notebooks donde se entrenaron y optimizaron los siete modelos probados para el proyecto
