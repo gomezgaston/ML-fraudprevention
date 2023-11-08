@@ -131,7 +131,7 @@ Además, uno de los aspectos más destacados de este conjunto de datos es el sig
 - **El conjuto de datos no presenta valores duplicados**.
 
 
-# Comparecion del modelo.
+# Comparación del modelo.
 
 - ## Modelos Base Utilizados
 ![Base_models](images/base_models.png)
